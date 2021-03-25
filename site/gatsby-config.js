@@ -6,8 +6,8 @@ module.exports = {
 		{
 		resolve: "gatsby-woocommerce-theme",
 		options: {
-			wordPressUrl: `${ process.env.WORDPRESS_SITE_URL }`,
-			gatsbySiteUrl: `${ process.env.GATSBY_SITE_URL }`,
+			wordPressUrl: 'https://cloud88.co/',
+			gatsbySiteUrl: 'https://cloud88.co/',
 			googleTagManagerId: `${ process.env.GOOGLE_TAGMANAGER_ID }`,
 			fbAppId: `${ process.env.FB_APP_ID }`
 		}
